@@ -87,7 +87,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
+    "tw:minify": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify"
   },
   "keywords": [],
   "author": "",

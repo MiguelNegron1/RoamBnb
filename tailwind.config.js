@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   darkMode: 'class',
-  content: ["./public/**/*.{html,js}"],
+  content: ["./index.html"],
   theme: {
     extend: {
       backgroundImage : {
@@ -37,31 +37,16 @@ module.exports = {
       fontFamily:{
         Montserrat:['Montserrat', 'sans-serif']
       },
-      gridTemplateAreas: {
-        'layout': [
-          'chicago chicago',
-          'LA-top miami ',
-          'LA-down  bali',
-        ],
-      },
-      // gridTemplateColumns: {
-      //   'layout' : 'auto auto',
-      // },
-      // gridTemplateRows: {
-      //   'layout': 'auto 1fr 1fr',
-      // },
     },
   },
   variants: {
     width: ["responsive", "hover", "focus"],
-    gridTemplateAreas: ['responsive'],
     extend: {},
   },
   plugins: [
       require('@tailwindcss/aspect-ratio'),
       require("@tailwindcss/forms"),
       require("@tailwindcss/typography"),
-      require('@savvywombat/tailwindcss-grid-areas')
   ],
 }
 

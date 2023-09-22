@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>RoamBnb</title>
 </head>
 <body class="font-Montserrat dark:bg-gray-900">
@@ -50,6 +51,7 @@
                 <div class="w-full h-screen lg:bg-sanFranciscoDesktop bg-fixed bg-center bg-cover">
                     <img class="w-full h-full  lg:hidden" src="/public/img/sanFrancisco.jpg" alt="">
                 </div>
+                <!-- Night Mode btn -->
                     <div class="w-full h-full flex flex-col items-center justify-between absolute top-0  lg:items-start">
 
                         <input id="search-bar" class="mt-24 border-none outline-none p-3 rounded-full text-center bg-white  ml-2 shadow-sm  transition duration-300 w-7/12  focus-within:shadow-sm focus:w-11/12 focus:ring-2   lg:hidden" type="search" placeholder="San Francisco"
@@ -61,6 +63,7 @@
                     </div>
             </div>
         </div>
+        <!-- Our Recomendations -->
         <div class="p-6" id="recomendados">
             <h2 class="text-primary mb-6 font-bold text-2xl dark:text-white">Our Recomendations</h2>
             <div class="w-auto h-80 items-center mt-6 overflow-x-auto    grid grid-cols-9 gap-x-56 overflow-y-hidden overscroll-x-contain ms-6 ">
@@ -126,6 +129,7 @@
                 </div>
             </div>
         </div>
+        <!-- Trending Stays Secction -->
         <div id="rentas_destacadas"  class="h-auto w-full p-4">
             <h2 class="text-primary font-semibold text-2xl my-1 mb-6 dark:text-white">Trending Stays</h2>
             <div class="flex flex-col space-y-8 lg:grid lg:grid-cols-2  lg:grid-rows-3  px-3">

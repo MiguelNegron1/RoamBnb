@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage : {
-        'sanFrancisco' : "url('/img/sanFrancisco.jpg')",
+        'sanFrancisco' : "url('./public/img/sanFrancisco.jpg')",
         'sanFranciscoDesktop' : " url('/img/sanFranciscoDesktop.jpg')",
         'yosemite' : " url('/img/yosemite.jpg')",
         'LA' : " url('/img/LA.jpg')",

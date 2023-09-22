@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   darkMode: 'class',
-  content: ["./src/index.html"],
+  content: ["./index.html"],
   theme: {
     extend: {
       backgroundImage : {

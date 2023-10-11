@@ -4,7 +4,7 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.3"
   },
   "name": "tailwind",
   "version": "1.0.0",

@@ -48,7 +48,7 @@ open index.html
 Explore RoamBnb: You can now explore the website and experience all its features.
 
 Usage
-RoamBnb is free to use, and you can access it by visiting https://www.roambnb.com in your web browser. Here are some tips for using the website effectively:
+RoamBnb is free to use, and you can access it by visiting [https://www.roambnb.com](https://miguelnegron1.github.io/RoamBnb/) in your web browser. Here are some tips for using the website effectively:
 
 Navigation: Use the navigation menu at the top of the page to quickly jump to different sections of the website.
 

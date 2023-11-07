@@ -14,7 +14,7 @@ Welcome to RoamBnb! This repository contains the codebase for our travel and acc
 ## Introduction
 RoamBnb is a visually stunning and user-friendly platform that helps you find the perfect destination and accommodation for your travel needs. Our website is designed to provide you with a seamless experience, from browsing through beautiful locations to booking your stay.
 
-![RoamBnb Screenshot](https://user-images.githubusercontent.com/yourusername/yourrepository/screenshots/roambnb-screenshot.png)
+![RoamBnb Screenshot](public/screenshot/PortadaDeRoamBnb.png)
 
 ## Features
 - **Beautiful Locations**: Explore a curated selection of breathtaking travel destinations from around the world.
@@ -56,7 +56,9 @@ Note to Contributors: This project is currently a personal portfolio piece and i
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
-For any questions or suggestions, feel free to connect with me on LinkedIn.
+## Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Miguel%20Negron-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/miguel-negron-garcia-3a6b001b9/)
+
 
 Thank you for exploring RoamBnb! We hope you find it helpful in planning your next adventure. Happy traveling!
